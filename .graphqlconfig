@@ -1,0 +1,4 @@
+{
+  "name": "Vendure Oomium Extensions GraphQL Schema",
+  "schemaPath": "./api/vendure-extensions/remote-schema.json"
+}

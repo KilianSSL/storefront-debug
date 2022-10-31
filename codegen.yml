@@ -1,0 +1,12 @@
+overwrite: true
+schema: "http://localhost:3000/shop-api/"
+generates:
+  ./api/vendure-extensions/remote-schema.json:
+    plugins:
+      - introspection
+  ./api/vendure-extensions/models.ts:
+    plugins:
+      - "typescript"
+hooks:
+  afterOneFileWrite:
+    - prettier --write
